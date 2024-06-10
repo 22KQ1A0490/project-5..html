@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <body>
+          <h1><marquee>Welcome To Vyshu's Resort</marquee></h1>
+            <!--Sli'de show-->
+            <section>
+                <img class="myslides" src="c:\Users\LabUser\Downloads\1352027.png"
+                style="width: 100%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\1192042.jpg"
+                style="width: 100%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\746170.jpg"
+                style="width: 100%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\774504.jpg"
+                style="width: 100%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\255263.jpg"
+                style="width: 100%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\DSC07685-HDR-Edit-Edit.jpg"
+                style="width: 80%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\maxresdefault (1).jpg"
+                style="width: 80%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\thumb-1920-1103956.jpg"
+                style="width: 80%;">
+                <img class="myslides" src="c:\Users\LabUser\Downloads\thumb-1920-802608.jpg"
+                style="width: 80%;">
+                <script>
+                    // Automatic Slideshow - change image every 1 seconds
+                    var myIndex = 0;
+                    carousel()
+                    
+                    function carousel() {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                      }
+                      myIndex++;
+                      if (myIndex > x.length) {myIndex = 1}
+                      x[myIndex-1].style.display = "block";
+                      setTimeout(carousel, 3000);
+                    }
+              </script> 
+            </section>
+        <body>
+          
+    <head>
+</html>
